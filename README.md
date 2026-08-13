@@ -14,6 +14,9 @@ Sistema de login próprio que centraliza o acesso a relatórios do Power BI, sem
 - Proteção CSRF em todos os formulários
 - Bloqueio temporário após tentativas de login inválidas (rate limiting por e-mail + IP)
 
+Card:
+Link: https://github.com/AlexadraCampos/BugLens-Plataforma-de-an-lise-e-acompanhamento-de-bugs/issues/2#issue-5146482466
+
 ## Stack
 
 PHP 7.4+ (sem framework) · MySQL/MariaDB via PDO · JavaScript vanilla · Power BI REST API · Microsoft Entra ID (OAuth2 client credentials)
