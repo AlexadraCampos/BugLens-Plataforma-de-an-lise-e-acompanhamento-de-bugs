@@ -1,0 +1,6 @@
+RewriteEngine On
+
+# Serve arquivos e pastas reais diretamente, sem cair nas regras do WordPress
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
